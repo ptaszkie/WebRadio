@@ -1,0 +1,80 @@
+ * {
+   box-sizing: border-box;
+   font-size: 20pt;
+}
+
+html{
+  background: #000;
+  color: #ccc;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-bottom: 1px solid #fff;
+}
+
+.header{
+  font-size: 200%;
+  text-align: center;
+}
+
+.radio{
+  border-top: 1pt solid #fff;
+  border-bottom: 1pt solid #fff;
+  overflow: hidden;
+  height: 90pt;
+  padding: 4pt 5pt;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  background: #000a16; /* Old browsers */
+  background: -moz-linear-gradient(top, #000a16 0%, #153656 49%, #153656 51%, #000a16 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #000a16 0%,#153656 49%,#153656 51%,#000a16 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #000a16 0%,#153656 49%,#153656 51%,#000a16 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.radio .play{
+  width: 80pt;
+  height: 80pt;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.radio .logo{
+  width: 150pt;
+  height: 80pt;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 5pt;
+}
+
+.radio .title{
+  font-size: 70pt;
+  margin-left: 10pt;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+#active .play{
+  background-image: url(../img/play.png);
+}
+
+.selected{
+  background: #053c7f; /* Old browsers */
+  background: -moz-linear-gradient(top, #053c7f 0%, #2fa2bf 49%, #2fa2bf 51%, #053c7f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #053c7f 0%,#2fa2bf 49%,#2fa2bf 51%,#053c7f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #053c7f 0%,#2fa2bf 49%,#2fa2bf 51%,#053c7f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
