@@ -28,7 +28,7 @@ body {
   border-top: 1pt solid #fff;
   border-bottom: 1pt solid #fff;
   overflow: hidden;
-  height: 90pt;
+  height: 70pt;
   padding: 4pt 5pt;
   display: flex;
   flex-direction: row;
@@ -41,8 +41,8 @@ body {
 }
 
 .radio .play{
-  width: 80pt;
-  height: 80pt;
+  width: 60pt;
+  height: 60pt;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@ body {
 
 .radio .logo{
   width: 150pt;
-  height: 80pt;
+  height: 50pt;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -59,7 +59,7 @@ body {
 }
 
 .radio .title{
-  font-size: 70pt;
+  font-size: 50pt;
   margin-left: 10pt;
 }
 
